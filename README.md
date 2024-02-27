@@ -20,14 +20,14 @@ public String handler(@RequestParam(name = "name") String name) {
 Let’s see a complete example of how to use the @RequestParam annotation to bind request parameters to method parameters in a controller.
 
 # Run and Test
-Type the following URLs in the browser's address bar and see the output.
- 1- http://localhost:8080/request1?name=David%20Miller
- 2- http://localhost:8080/request2?firstName=David&lastName=Miller
- 3 - http://localhost:8080/request3?name=David&age=32&amount=1200.50&active=1
- 4 -http://localhost:8080/request4?name=David&age=32&country=USA&city=NewYork
- 5 - http://localhost:8080/request5?firstName=David&lastName=Miller
- 6 - http://localhost:8080/request6?date=2017-12-12&time=12:54:52
- 7-http://localhost:8080/request7?country=USA&country=PAKISTAN&country=Japan&city=NYC&city=KARACHI&city=TOKYO
- 8 - http://localhost:8080/request8
+Type the following URLs in the browser's address bar and see the output.<br>
+ 1- http://localhost:8080/request1?name=David%20Miller  <br>
+ 2- http://localhost:8080/request2?firstName=David&lastName=Miller   <br>
+ 3 - http://localhost:8080/request3?name=David&age=32&amount=1200.50&active=1  <br>
+ 4 -http://localhost:8080/request4?name=David&age=32&country=USA&city=NewYork  <br>
+ 5 - http://localhost:8080/request5?firstName=David&lastName=Miller  <br>
+ 6 - http://localhost:8080/request6?date=2017-12-12&time=12:54:52  <br>
+ 7-http://localhost:8080/request7?country=USA&country=PAKISTAN&country=Japan&city=NYC&city=KARACHI&city=TOKYO  <br>
+ 8 - http://localhost:8080/request8  <br>
 
  
